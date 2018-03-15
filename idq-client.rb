@@ -12,7 +12,7 @@ require 'rest-client'
 # for explicit authentication flow.
 class IdQClient
   # Class variables
-  @@idq_host = 'beta.idquanta.com'
+  @@idq_host = 'taas.idquanta.com'
   @@idq_port = 443
   @@path_auth = '/idqoauth/api/v1/auth'
   @@path_token = '/idqoauth/api/v1/token'
